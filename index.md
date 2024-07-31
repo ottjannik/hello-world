@@ -30,3 +30,12 @@ A footnote can also have multiple lines[^2].
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
